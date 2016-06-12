@@ -1,65 +1,262 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# Ignore list
 
-## Build generated
-build/
-DerivedData/
+### CatalogoEmpresa
+CatalogoEmpresa/build/
+CatalogoEmpresa/DerivedData/
+CatalogoEmpresa/*.pbxuser
+CatalogoEmpresa/!default.pbxuser
+CatalogoEmpresa/*.mode1v3
+CatalogoEmpresa/!default.mode1v3
+CatalogoEmpresa/*.mode2v3
+CatalogoEmpresa/!default.mode2v3
+CatalogoEmpresa/*.perspectivev3
+CatalogoEmpresa/!default.perspectivev3
+CatalogoEmpresa/xcuserdata/
+CatalogoEmpresa/*.moved-aside
+CatalogoEmpresa/*.xcuserstate
+CatalogoEmpresa/*.hmap
+CatalogoEmpresa/*.ipa
+CatalogoEmpresa/*.dSYM.zip
+CatalogoEmpresa/*.dSYM
+CatalogoEmpresa/timeline.xctimeline
+CatalogoEmpresa/playground.xcworkspace
+CatalogoEmpresa/.build/
+CatalogoEmpresa/Pods/
+CatalogoEmpresa/Carthage/Checkouts
+CatalogoEmpresa/Carthage/Build
+CatalogoEmpresa/fastlane/report.xml
+CatalogoEmpresa/fastlane/Preview.html
+CatalogoEmpresa/fastlane/screenshots
+CatalogoEmpresa/fastlane/test_output
 
-## Various settings
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
+### DemostracaoStoryboard
+DemostracaoStoryboard/build/
+DemostracaoStoryboard/DerivedData/
+DemostracaoStoryboard/*.pbxuser
+DemostracaoStoryboard/!default.pbxuser
+DemostracaoStoryboard/*.mode1v3
+DemostracaoStoryboard/!default.mode1v3
+DemostracaoStoryboard/*.mode2v3
+DemostracaoStoryboard/!default.mode2v3
+DemostracaoStoryboard/*.perspectivev3
+DemostracaoStoryboard/!default.perspectivev3
+DemostracaoStoryboard/xcuserdata/
+DemostracaoStoryboard/*.moved-aside
+DemostracaoStoryboard/*.xcuserstate
+DemostracaoStoryboard/*.hmap
+DemostracaoStoryboard/*.ipa
+DemostracaoStoryboard/*.dSYM.zip
+DemostracaoStoryboard/*.dSYM
+DemostracaoStoryboard/timeline.xctimeline
+DemostracaoStoryboard/playground.xcworkspace
+DemostracaoStoryboard/.build/
+DemostracaoStoryboard/Pods/
+DemostracaoStoryboard/Carthage/Checkouts
+DemostracaoStoryboard/Carthage/Build
+DemostracaoStoryboard/fastlane/report.xml
+DemostracaoStoryboard/fastlane/Preview.html
+DemostracaoStoryboard/fastlane/screenshots
+DemostracaoStoryboard/fastlane/test_output
 
-## Other
-*.moved-aside
-*.xcuserstate
+### ExemploDownload
+ExemploDownload/build/
+ExemploDownload/DerivedData/
+ExemploDownload/*.pbxuser
+ExemploDownload/!default.pbxuser
+ExemploDownload/*.mode1v3
+ExemploDownload/!default.mode1v3
+ExemploDownload/*.mode2v3
+ExemploDownload/!default.mode2v3
+ExemploDownload/*.perspectivev3
+ExemploDownload/!default.perspectivev3
+ExemploDownload/xcuserdata/
+ExemploDownload/*.moved-aside
+ExemploDownload/*.xcuserstate
+ExemploDownload/*.hmap
+ExemploDownload/*.ipa
+ExemploDownload/*.dSYM.zip
+ExemploDownload/*.dSYM
+ExemploDownload/timeline.xctimeline
+ExemploDownload/playground.xcworkspace
+ExemploDownload/.build/
+ExemploDownload/Pods/
+ExemploDownload/Carthage/Checkouts
+ExemploDownload/Carthage/Build
+ExemploDownload/fastlane/report.xml
+ExemploDownload/fastlane/Preview.html
+ExemploDownload/fastlane/screenshots
+ExemploDownload/fastlane/test_output
 
-## Obj-C/Swift specific
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
+### NavigationControllerDemo
+NavigationControllerDemo/build/
+NavigationControllerDemo/DerivedData/
+NavigationControllerDemo/*.pbxuser
+NavigationControllerDemo/!default.pbxuser
+NavigationControllerDemo/*.mode1v3
+NavigationControllerDemo/!default.mode1v3
+NavigationControllerDemo/*.mode2v3
+NavigationControllerDemo/!default.mode2v3
+NavigationControllerDemo/*.perspectivev3
+NavigationControllerDemo/!default.perspectivev3
+NavigationControllerDemo/xcuserdata/
+NavigationControllerDemo/*.moved-aside
+NavigationControllerDemo/*.xcuserstate
+NavigationControllerDemo/*.hmap
+NavigationControllerDemo/*.ipa
+NavigationControllerDemo/*.dSYM.zip
+NavigationControllerDemo/*.dSYM
+NavigationControllerDemo/timeline.xctimeline
+NavigationControllerDemo/playground.xcworkspace
+NavigationControllerDemo/.build/
+NavigationControllerDemo/Pods/
+NavigationControllerDemo/Carthage/Checkouts
+NavigationControllerDemo/Carthage/Build
+NavigationControllerDemo/fastlane/report.xml
+NavigationControllerDemo/fastlane/Preview.html
+NavigationControllerDemo/fastlane/screenshots
+NavigationControllerDemo/fastlane/test_output
 
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+### NavigationControllerDemo
+NavigationControllerDemo/build/
+NavigationControllerDemo/DerivedData/
+NavigationControllerDemo/*.pbxuser
+NavigationControllerDemo/!default.pbxuser
+NavigationControllerDemo/*.mode1v3
+NavigationControllerDemo/!default.mode1v3
+NavigationControllerDemo/*.mode2v3
+NavigationControllerDemo/!default.mode2v3
+NavigationControllerDemo/*.perspectivev3
+NavigationControllerDemo/!default.perspectivev3
+NavigationControllerDemo/xcuserdata/
+NavigationControllerDemo/*.moved-aside
+NavigationControllerDemo/*.xcuserstate
+NavigationControllerDemo/*.hmap
+NavigationControllerDemo/*.ipa
+NavigationControllerDemo/*.dSYM.zip
+NavigationControllerDemo/*.dSYM
+NavigationControllerDemo/timeline.xctimeline
+NavigationControllerDemo/playground.xcworkspace
+NavigationControllerDemo/.build/
+NavigationControllerDemo/Pods/
+NavigationControllerDemo/Carthage/Checkouts
+NavigationControllerDemo/Carthage/Build
+NavigationControllerDemo/fastlane/report.xml
+NavigationControllerDemo/fastlane/Preview.html
+NavigationControllerDemo/fastlane/screenshots
+NavigationControllerDemo/fastlane/test_output
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-.build/
+### Projeto
+Projeto/build/
+Projeto/DerivedData/
+Projeto/*.pbxuser
+Projeto/!default.pbxuser
+Projeto/*.mode1v3
+Projeto/!default.mode1v3
+Projeto/*.mode2v3
+Projeto/!default.mode2v3
+Projeto/*.perspectivev3
+Projeto/!default.perspectivev3
+Projeto/xcuserdata/
+Projeto/*.moved-aside
+Projeto/*.xcuserstate
+Projeto/*.hmap
+Projeto/*.ipa
+Projeto/*.dSYM.zip
+Projeto/*.dSYM
+Projeto/timeline.xctimeline
+Projeto/playground.xcworkspace
+Projeto/.build/
+Projeto/Pods/
+Projeto/Carthage/Checkouts
+Projeto/Carthage/Build
+Projeto/fastlane/report.xml
+Projeto/fastlane/Preview.html
+Projeto/fastlane/screenshots
+Projeto/fastlane/test_output
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
+### ProjetoTesteObjC
+ProjetoTesteObjC/build/
+ProjetoTesteObjC/DerivedData/
+ProjetoTesteObjC/*.pbxuser
+ProjetoTesteObjC/!default.pbxuser
+ProjetoTesteObjC/*.mode1v3
+ProjetoTesteObjC/!default.mode1v3
+ProjetoTesteObjC/*.mode2v3
+ProjetoTesteObjC/!default.mode2v3
+ProjetoTesteObjC/*.perspectivev3
+ProjetoTesteObjC/!default.perspectivev3
+ProjetoTesteObjC/xcuserdata/
+ProjetoTesteObjC/*.moved-aside
+ProjetoTesteObjC/*.xcuserstate
+ProjetoTesteObjC/*.hmap
+ProjetoTesteObjC/*.ipa
+ProjetoTesteObjC/*.dSYM.zip
+ProjetoTesteObjC/*.dSYM
+ProjetoTesteObjC/timeline.xctimeline
+ProjetoTesteObjC/playground.xcworkspace
+ProjetoTesteObjC/.build/
+ProjetoTesteObjC/Pods/
+ProjetoTesteObjC/Carthage/Checkouts
+ProjetoTesteObjC/Carthage/Build
+ProjetoTesteObjC/fastlane/report.xml
+ProjetoTesteObjC/fastlane/Preview.html
+ProjetoTesteObjC/fastlane/screenshots
+ProjetoTesteObjC/fastlane/test_output
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+### Sacolao
+Sacolao/build/
+Sacolao/DerivedData/
+Sacolao/*.pbxuser
+Sacolao/!default.pbxuser
+Sacolao/*.mode1v3
+Sacolao/!default.mode1v3
+Sacolao/*.mode2v3
+Sacolao/!default.mode2v3
+Sacolao/*.perspectivev3
+Sacolao/!default.perspectivev3
+Sacolao/xcuserdata/
+Sacolao/*.moved-aside
+Sacolao/*.xcuserstate
+Sacolao/*.hmap
+Sacolao/*.ipa
+Sacolao/*.dSYM.zip
+Sacolao/*.dSYM
+Sacolao/timeline.xctimeline
+Sacolao/playground.xcworkspace
+Sacolao/.build/
+Sacolao/Pods/
+Sacolao/Carthage/Checkouts
+Sacolao/Carthage/Build
+Sacolao/fastlane/report.xml
+Sacolao/fastlane/Preview.html
+Sacolao/fastlane/screenshots
+Sacolao/fastlane/test_output
 
-Carthage/Build
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
-
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
+### ViewControllerAnimations
+ViewControllerAnimations/build/
+ViewControllerAnimations/DerivedData/
+ViewControllerAnimations/*.pbxuser
+ViewControllerAnimations/!default.pbxuser
+ViewControllerAnimations/*.mode1v3
+ViewControllerAnimations/!default.mode1v3
+ViewControllerAnimations/*.mode2v3
+ViewControllerAnimations/!default.mode2v3
+ViewControllerAnimations/*.perspectivev3
+ViewControllerAnimations/!default.perspectivev3
+ViewControllerAnimations/xcuserdata/
+ViewControllerAnimations/*.moved-aside
+ViewControllerAnimations/*.xcuserstate
+ViewControllerAnimations/*.hmap
+ViewControllerAnimations/*.ipa
+ViewControllerAnimations/*.dSYM.zip
+ViewControllerAnimations/*.dSYM
+ViewControllerAnimations/timeline.xctimeline
+ViewControllerAnimations/playground.xcworkspace
+ViewControllerAnimations/.build/
+ViewControllerAnimations/Pods/
+ViewControllerAnimations/Carthage/Checkouts
+ViewControllerAnimations/Carthage/Build
+ViewControllerAnimations/fastlane/report.xml
+ViewControllerAnimations/fastlane/Preview.html
+ViewControllerAnimations/fastlane/screenshots
+ViewControllerAnimations/fastlane/test_output
