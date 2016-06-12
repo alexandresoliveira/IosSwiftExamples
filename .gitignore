@@ -28,6 +28,7 @@ CatalogoEmpresa/fastlane/report.xml
 CatalogoEmpresa/fastlane/Preview.html
 CatalogoEmpresa/fastlane/screenshots
 CatalogoEmpresa/fastlane/test_output
+CatalogoEmpresa/.git
 
 ### DemostracaoStoryboard
 DemostracaoStoryboard/build/
@@ -57,6 +58,7 @@ DemostracaoStoryboard/fastlane/report.xml
 DemostracaoStoryboard/fastlane/Preview.html
 DemostracaoStoryboard/fastlane/screenshots
 DemostracaoStoryboard/fastlane/test_output
+DemostracaoStoryboard/.git
 
 ### ExemploDownload
 ExemploDownload/build/
@@ -86,6 +88,7 @@ ExemploDownload/fastlane/report.xml
 ExemploDownload/fastlane/Preview.html
 ExemploDownload/fastlane/screenshots
 ExemploDownload/fastlane/test_output
+ExemploDownload/.git
 
 ### NavigationControllerDemo
 NavigationControllerDemo/build/
@@ -115,6 +118,7 @@ NavigationControllerDemo/fastlane/report.xml
 NavigationControllerDemo/fastlane/Preview.html
 NavigationControllerDemo/fastlane/screenshots
 NavigationControllerDemo/fastlane/test_output
+NavigationControllerDemo/.git
 
 ### NavigationControllerDemo
 NavigationControllerDemo/build/
@@ -144,6 +148,7 @@ NavigationControllerDemo/fastlane/report.xml
 NavigationControllerDemo/fastlane/Preview.html
 NavigationControllerDemo/fastlane/screenshots
 NavigationControllerDemo/fastlane/test_output
+NavigationControllerDemo/.git
 
 ### Projeto
 Projeto/build/
@@ -173,6 +178,7 @@ Projeto/fastlane/report.xml
 Projeto/fastlane/Preview.html
 Projeto/fastlane/screenshots
 Projeto/fastlane/test_output
+Projeto/.git
 
 ### ProjetoTesteObjC
 ProjetoTesteObjC/build/
@@ -202,6 +208,7 @@ ProjetoTesteObjC/fastlane/report.xml
 ProjetoTesteObjC/fastlane/Preview.html
 ProjetoTesteObjC/fastlane/screenshots
 ProjetoTesteObjC/fastlane/test_output
+ProjetoTesteObjC/.git
 
 ### Sacolao
 Sacolao/build/
@@ -231,6 +238,7 @@ Sacolao/fastlane/report.xml
 Sacolao/fastlane/Preview.html
 Sacolao/fastlane/screenshots
 Sacolao/fastlane/test_output
+Sacolao/.git
 
 ### ViewControllerAnimations
 ViewControllerAnimations/build/
@@ -260,3 +268,4 @@ ViewControllerAnimations/fastlane/report.xml
 ViewControllerAnimations/fastlane/Preview.html
 ViewControllerAnimations/fastlane/screenshots
 ViewControllerAnimations/fastlane/test_output
+ViewControllerAnimations/.git
