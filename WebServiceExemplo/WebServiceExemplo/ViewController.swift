@@ -12,8 +12,12 @@ import Alamofire
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var waitWebService: UIProgressView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        waitWebService.hidden = false
         
         let group = dispatch_group_create()
         
@@ -30,6 +34,7 @@ class ViewController: UIViewController {
                     dispatch_group_leave(group)
                  }
         dispatch_group_notify(group, dispatch_get_main_queue(), {
+            self.waitWebService.hidden = true
             print("Finished all requests.")
         })
     }
