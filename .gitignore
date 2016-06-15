@@ -270,7 +270,6 @@ ViewControllerAnimations/fastlane/screenshots
 ViewControllerAnimations/fastlane/test_output
 ViewControllerAnimations/.git
 
-
 ### GoogleMapsExemplo
 GoogleMapsExemplo/build/
 GoogleMapsExemplo/DerivedData/
@@ -300,3 +299,33 @@ GoogleMapsExemplo/fastlane/Preview.html
 GoogleMapsExemplo/fastlane/screenshots
 GoogleMapsExemplo/fastlane/test_output
 GoogleMapsExemplo/.git
+
+### WebServiceExemplo
+WebServiceExemplo/build/
+WebServiceExemplo/DerivedData/
+WebServiceExemplo/*.pbxuser
+WebServiceExemplo/!default.pbxuser
+WebServiceExemplo/*.mode1v3
+WebServiceExemplo/!default.mode1v3
+WebServiceExemplo/*.mode2v3
+WebServiceExemplo/!default.mode2v3
+WebServiceExemplo/*.perspectivev3
+WebServiceExemplo/!default.perspectivev3
+WebServiceExemplo/xcuserdata/
+WebServiceExemplo/*.moved-aside
+WebServiceExemplo/*.xcuserstate
+WebServiceExemplo/*.hmap
+WebServiceExemplo/*.ipa
+WebServiceExemplo/*.dSYM.zip
+WebServiceExemplo/*.dSYM
+WebServiceExemplo/timeline.xctimeline
+WebServiceExemplo/playground.xcworkspace
+WebServiceExemplo/.build/
+WebServiceExemplo/Pods/
+WebServiceExemplo/Carthage/Checkouts
+WebServiceExemplo/Carthage/Build
+WebServiceExemplo/fastlane/report.xml
+WebServiceExemplo/fastlane/Preview.html
+WebServiceExemplo/fastlane/screenshots
+WebServiceExemplo/fastlane/test_output
+WebServiceExemplo/.git

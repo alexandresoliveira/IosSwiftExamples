@@ -29,8 +29,10 @@ class ListaProdutosController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let row = indexPath.row
         let produto = produtos![row]
+        let selector = UILongPressGestureRecognizer(target: self, action: Selector("detailProduto:"))
         let cell = UITableViewCell(style: .Subtitle,
                                    reuseIdentifier: nil)
+        cell.addGestureRecognizer(selector)
         cell.textLabel?.text = " \(produto.getCodigo()) - \(produto.getNome())"
         cell.detailTextLabel?.text = String(produto.getQuantidade())
         return cell
@@ -41,4 +43,12 @@ class ListaProdutosController: UITableViewController {
         self.navigationController!.pushViewController(adicionarProdutoController!, animated: true)
     }
     
+    private func detailProduto(gestureReconizer: UILongPressGestureRecognizer) {
+        if gestureReconizer.state == UIGestureRecognizerState.Began {
+            let ocorrencia = gestureReconizer.view as? UITableViewCell
+            let index = tableView.indexPathForCell(ocorrencia!)
+            let produto = produtos![(index?.row)!]
+            print("Produto: \(produto.getNome())")
+        }
+    }
 }

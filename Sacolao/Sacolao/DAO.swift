@@ -39,8 +39,4 @@ class DAO<T> {
     internal func rowToEntity(row: Row) throws -> T {
         throw DAOException.MethodNotImplemented(message: "Método de conversão para entidade não implementado!")
     }
-    
-    internal func entityToQuery(insert: Bool) throws -> Table {
-        throw DAOException.MethodNotImplemented(message: "Método de conversão para entidade não implementado!")
-    }
 }
