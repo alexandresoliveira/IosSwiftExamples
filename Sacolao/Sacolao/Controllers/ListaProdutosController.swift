@@ -29,12 +29,13 @@ class ListaProdutosController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let row = indexPath.row
         let produto = produtos![row]
-        let selector = UILongPressGestureRecognizer(target: self, action: Selector("detailProduto:"))
+        let selector = UILongPressGestureRecognizer(target: self,
+                                                    action: #selector(ListaProdutosController.detailProduto(_:)))
         let cell = UITableViewCell(style: .Subtitle,
                                    reuseIdentifier: nil)
         cell.addGestureRecognizer(selector)
-        cell.textLabel?.text = " \(produto.getCodigo()) - \(produto.getNome())"
-        cell.detailTextLabel?.text = String(produto.getQuantidade())
+        cell.textLabel?.text = "\(produto.getNome())"
+        cell.detailTextLabel?.text = formatNumber(produto.getQuantidade())
         return cell
     }
     
@@ -43,12 +44,30 @@ class ListaProdutosController: UITableViewController {
         self.navigationController!.pushViewController(adicionarProdutoController!, animated: true)
     }
     
-    private func detailProduto(gestureReconizer: UILongPressGestureRecognizer) {
+    @objc private func detailProduto(gestureReconizer: UILongPressGestureRecognizer) {
         if gestureReconizer.state == UIGestureRecognizerState.Began {
             let ocorrencia = gestureReconizer.view as? UITableViewCell
             let index = tableView.indexPathForCell(ocorrencia!)
             let produto = produtos![(index?.row)!]
-            print("Produto: \(produto.getNome())")
+            let alert = UIAlertController(title: "Produto",
+                                          message: "\(produto.getCodigo()) \n\(produto.getNome()) \n\(formatNumber(produto.getQuantidade()))",
+                                          preferredStyle: .Alert)
+            let alertAction = UIAlertAction(title: "Ok",
+                                            style: .Default,
+                                            handler: nil)
+            alert.addAction(alertAction)
+            self.presentViewController(alert,
+                                       animated: true,
+                                       completion: nil)
         }
+    }
+    
+    private func formatNumber(number: Double) -> String {
+        let formater = NSNumberFormatter()
+        formater.numberStyle = .DecimalStyle
+        formater.currencyDecimalSeparator = ","
+        formater.groupingSize = 3
+        formater.maximumFractionDigits = 2
+        return formater.stringFromNumber(number)!
     }
 }

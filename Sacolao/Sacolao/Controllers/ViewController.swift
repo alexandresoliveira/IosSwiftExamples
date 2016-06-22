@@ -22,6 +22,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addProduto(sender: UIButton) {
+        
+        if !isValidDecimalNumber(quantidade.text!) {
+            let errorAlert = UIAlertController(title: "Error!",
+                                               message: "Número inválido",
+                                               preferredStyle: .Alert)
+            let okAlertAction = UIAlertAction(title: "Ok",
+                                              style: .Default,
+                                              handler: nil)
+            errorAlert.addAction(okAlertAction)
+            self.presentViewController(errorAlert,
+                                       animated: true,
+                                       completion: nil)
+            return
+        }
+        
         let model = Produto(codigo: nil,
                             nome: produto.text!,
                             quantidade: NSString(string: quantidade.text!).doubleValue)
@@ -39,6 +54,17 @@ class ViewController: UIViewController {
             self.presentViewController(errorAlert,
                                        animated: true,
                                        completion: nil)
+        }
+    }
+    
+    private func isValidDecimalNumber(number: String) -> Bool {
+        do {
+            let regex = try NSRegularExpression(pattern: "\\d+(\\.\\d{1,2})$",
+                                                options: .AllowCommentsAndWhitespace)
+            
+            return false
+        } catch {
+            return false
         }
     }
     
