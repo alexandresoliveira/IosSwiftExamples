@@ -8,40 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		1440CA7D96D0FC64513E3D0C /* Pods_Sacolao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190A4A528FF64D2B5578263D /* Pods_Sacolao.framework */; };
-		97590A271D0DC6EC00F17F52 /* ConnectionDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97590A261D0DC6EC00F17F52 /* ConnectionDatabase.swift */; };
-		97A232051D0DCB6400D53098 /* ProdutoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A232041D0DCB6400D53098 /* ProdutoDAO.swift */; };
-		97A232071D0DCBC600D53098 /* ProdutoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A232061D0DCBC600D53098 /* ProdutoHelper.swift */; };
-		97A232091D0DE26800D53098 /* DAOException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A232081D0DE26800D53098 /* DAOException.swift */; };
-		97A2320C1D0E20E700D53098 /* DAOProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A2320B1D0E20E700D53098 /* DAOProtocol.swift */; };
+		975413B31D1A559900A096CA /* ListaProdutosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413A51D1A559900A096CA /* ListaProdutosController.swift */; };
+		975413B41D1A559900A096CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413A61D1A559900A096CA /* ViewController.swift */; };
+		975413B51D1A559900A096CA /* ConnectionDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413A91D1A559900A096CA /* ConnectionDatabase.swift */; };
+		975413B61D1A559900A096CA /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413AA1D1A559900A096CA /* DAO.swift */; };
+		975413B71D1A559900A096CA /* DAOProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413AB1D1A559900A096CA /* DAOProtocol.swift */; };
+		975413B81D1A559900A096CA /* DAOException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413AD1D1A559900A096CA /* DAOException.swift */; };
+		975413B91D1A559900A096CA /* ProdutoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413AF1D1A559900A096CA /* ProdutoHelper.swift */; };
+		975413BA1D1A559900A096CA /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413B11D1A559900A096CA /* Produto.swift */; };
+		975413BB1D1A559900A096CA /* ProdutoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975413B21D1A559900A096CA /* ProdutoDAO.swift */; };
 		97A83E011D0A448800859715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A83E001D0A448800859715 /* AppDelegate.swift */; };
-		97A83E031D0A448800859715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A83E021D0A448800859715 /* ViewController.swift */; };
 		97A83E061D0A448800859715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A83E041D0A448800859715 /* Main.storyboard */; };
 		97A83E091D0A448800859715 /* Sacolao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97A83E071D0A448800859715 /* Sacolao.xcdatamodeld */; };
 		97A83E0B1D0A448800859715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A83E0A1D0A448800859715 /* Assets.xcassets */; };
 		97A83E0E1D0A448800859715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A83E0C1D0A448800859715 /* LaunchScreen.storyboard */; };
-		97A83E161D0A488500859715 /* ListaProdutosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A83E151D0A488500859715 /* ListaProdutosController.swift */; };
-		97A83E181D0A506D00859715 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A83E171D0A506D00859715 /* Produto.swift */; };
-		97A83E1A1D0A537F00859715 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A83E191D0A537F00859715 /* DAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		190A4A528FF64D2B5578263D /* Pods_Sacolao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sacolao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97590A261D0DC6EC00F17F52 /* ConnectionDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionDatabase.swift; sourceTree = "<group>"; };
-		97A232041D0DCB6400D53098 /* ProdutoDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdutoDAO.swift; sourceTree = "<group>"; };
-		97A232061D0DCBC600D53098 /* ProdutoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdutoHelper.swift; sourceTree = "<group>"; };
-		97A232081D0DE26800D53098 /* DAOException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOException.swift; sourceTree = "<group>"; };
-		97A2320B1D0E20E700D53098 /* DAOProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOProtocol.swift; sourceTree = "<group>"; };
+		975413A51D1A559900A096CA /* ListaProdutosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaProdutosController.swift; sourceTree = "<group>"; };
+		975413A61D1A559900A096CA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		975413A91D1A559900A096CA /* ConnectionDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionDatabase.swift; sourceTree = "<group>"; };
+		975413AA1D1A559900A096CA /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		975413AB1D1A559900A096CA /* DAOProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOProtocol.swift; sourceTree = "<group>"; };
+		975413AD1D1A559900A096CA /* DAOException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOException.swift; sourceTree = "<group>"; };
+		975413AF1D1A559900A096CA /* ProdutoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdutoHelper.swift; sourceTree = "<group>"; };
+		975413B11D1A559900A096CA /* Produto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		975413B21D1A559900A096CA /* ProdutoDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdutoDAO.swift; sourceTree = "<group>"; };
 		97A83DFD1D0A448800859715 /* Sacolao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sacolao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A83E001D0A448800859715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97A83E021D0A448800859715 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97A83E051D0A448800859715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97A83E081D0A448800859715 /* Sacolao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sacolao.xcdatamodel; sourceTree = "<group>"; };
 		97A83E0A1D0A448800859715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97A83E0D1D0A448800859715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97A83E0F1D0A448800859715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97A83E151D0A488500859715 /* ListaProdutosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaProdutosController.swift; sourceTree = "<group>"; };
-		97A83E171D0A506D00859715 /* Produto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
-		97A83E191D0A537F00859715 /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 		A58ABCA0A053462E2F34C5BE /* Pods-Sacolao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sacolao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sacolao/Pods-Sacolao.debug.xcconfig"; sourceTree = "<group>"; };
 		FE94585B727DAB0257FEE146 /* Pods-Sacolao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sacolao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sacolao/Pods-Sacolao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,14 +66,59 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		97A2320A1D0DEEA200D53098 /* DAO */ = {
+		975413A41D1A559900A096CA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				97A83E191D0A537F00859715 /* DAO.swift */,
-				97A232041D0DCB6400D53098 /* ProdutoDAO.swift */,
-				97A2320B1D0E20E700D53098 /* DAOProtocol.swift */,
+				975413A51D1A559900A096CA /* ListaProdutosController.swift */,
+				975413A61D1A559900A096CA /* ViewController.swift */,
 			);
-			name = DAO;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		975413A71D1A559900A096CA /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				975413AA1D1A559900A096CA /* DAO.swift */,
+				975413AB1D1A559900A096CA /* DAOProtocol.swift */,
+				975413B21D1A559900A096CA /* ProdutoDAO.swift */,
+				975413A81D1A559900A096CA /* Connection */,
+				975413AC1D1A559900A096CA /* Exceptions */,
+				975413AE1D1A559900A096CA /* Helpers */,
+				975413B01D1A559900A096CA /* Models */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		975413A81D1A559900A096CA /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				975413A91D1A559900A096CA /* ConnectionDatabase.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		975413AC1D1A559900A096CA /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				975413AD1D1A559900A096CA /* DAOException.swift */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		975413AE1D1A559900A096CA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				975413AF1D1A559900A096CA /* ProdutoHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		975413B01D1A559900A096CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				975413B11D1A559900A096CA /* Produto.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		97A83DF41D0A448700859715 = {
@@ -97,19 +142,14 @@
 		97A83DFF1D0A448800859715 /* Sacolao */ = {
 			isa = PBXGroup;
 			children = (
-				97A2320A1D0DEEA200D53098 /* DAO */,
-				97A83E001D0A448800859715 /* AppDelegate.swift */,
-				97A83E021D0A448800859715 /* ViewController.swift */,
-				97A83E041D0A448800859715 /* Main.storyboard */,
-				97A83E0A1D0A448800859715 /* Assets.xcassets */,
-				97A83E0C1D0A448800859715 /* LaunchScreen.storyboard */,
 				97A83E0F1D0A448800859715 /* Info.plist */,
+				97A83E001D0A448800859715 /* AppDelegate.swift */,
+				97A83E0A1D0A448800859715 /* Assets.xcassets */,
+				975413A41D1A559900A096CA /* Controllers */,
+				975413A71D1A559900A096CA /* DAO */,
+				97A83E0C1D0A448800859715 /* LaunchScreen.storyboard */,
+				97A83E041D0A448800859715 /* Main.storyboard */,
 				97A83E071D0A448800859715 /* Sacolao.xcdatamodeld */,
-				97A83E151D0A488500859715 /* ListaProdutosController.swift */,
-				97A83E171D0A506D00859715 /* Produto.swift */,
-				97A232061D0DCBC600D53098 /* ProdutoHelper.swift */,
-				97590A261D0DC6EC00F17F52 /* ConnectionDatabase.swift */,
-				97A232081D0DE26800D53098 /* DAOException.swift */,
 			);
 			path = Sacolao;
 			sourceTree = "<group>";
@@ -245,17 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97A83E1A1D0A537F00859715 /* DAO.swift in Sources */,
-				97A83E031D0A448800859715 /* ViewController.swift in Sources */,
-				97A232091D0DE26800D53098 /* DAOException.swift in Sources */,
-				97A83E161D0A488500859715 /* ListaProdutosController.swift in Sources */,
+				975413B81D1A559900A096CA /* DAOException.swift in Sources */,
+				975413B61D1A559900A096CA /* DAO.swift in Sources */,
+				975413B51D1A559900A096CA /* ConnectionDatabase.swift in Sources */,
+				975413BA1D1A559900A096CA /* Produto.swift in Sources */,
 				97A83E091D0A448800859715 /* Sacolao.xcdatamodeld in Sources */,
-				97A232051D0DCB6400D53098 /* ProdutoDAO.swift in Sources */,
-				97A83E181D0A506D00859715 /* Produto.swift in Sources */,
-				97A232071D0DCBC600D53098 /* ProdutoHelper.swift in Sources */,
 				97A83E011D0A448800859715 /* AppDelegate.swift in Sources */,
-				97A2320C1D0E20E700D53098 /* DAOProtocol.swift in Sources */,
-				97590A271D0DC6EC00F17F52 /* ConnectionDatabase.swift in Sources */,
+				975413B41D1A559900A096CA /* ViewController.swift in Sources */,
+				975413B91D1A559900A096CA /* ProdutoHelper.swift in Sources */,
+				975413B71D1A559900A096CA /* DAOProtocol.swift in Sources */,
+				975413B31D1A559900A096CA /* ListaProdutosController.swift in Sources */,
+				975413BB1D1A559900A096CA /* ProdutoDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
