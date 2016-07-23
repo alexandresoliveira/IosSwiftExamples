@@ -61,8 +61,10 @@ class ViewController: UIViewController {
         do {
             let regex = try NSRegularExpression(pattern: "\\d+(\\.\\d{1,2})$",
                                                 options: .AllowCommentsAndWhitespace)
-            
-            return false
+            let matches = regex.matchesInString(number,
+                                                options: .Anchored,
+                                                range: NSRange(location: 0, length: number.characters.count))
+            return matches.count > 0;
         } catch {
             return false
         }
