@@ -29,11 +29,9 @@ class ListaProdutosController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let row = indexPath.row
         let produto = produtos![row]
-        let selector = UILongPressGestureRecognizer(target: self,
-                                                    action: #selector(ListaProdutosController.detailProduto(_:)))
         let cell = UITableViewCell(style: .Subtitle,
                                    reuseIdentifier: nil)
-        cell.addGestureRecognizer(selector)
+        cell.addGestureRecognizer(detailSelector())
         cell.textLabel?.text = "\(produto.getNome())"
         cell.detailTextLabel?.text = formatNumber(produto.getQuantidade())
         return cell
@@ -69,5 +67,10 @@ class ListaProdutosController: UITableViewController {
         formater.groupingSize = 3
         formater.maximumFractionDigits = 2
         return formater.stringFromNumber(number)!
+    }
+    
+    private func detailSelector() -> UILongPressGestureRecognizer {
+        return UILongPressGestureRecognizer(target: self,
+                                            action: #selector(ListaProdutosController.detailProduto(_:)))
     }
 }
