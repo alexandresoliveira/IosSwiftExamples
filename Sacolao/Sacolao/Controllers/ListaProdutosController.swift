@@ -60,6 +60,12 @@ class ListaProdutosController: UITableViewController {
         }
     }
     
+    @objc private func editSelector(gestureReconizer: UITapGestureRecognizer) {
+        if gestureReconizer.state == UIGestureRecognizerState.Began {
+            
+        }
+    }
+    
     private func formatNumber(number: Double) -> String {
         let formater = NSNumberFormatter()
         formater.numberStyle = .DecimalStyle
@@ -72,5 +78,10 @@ class ListaProdutosController: UITableViewController {
     private func detailSelector() -> UILongPressGestureRecognizer {
         return UILongPressGestureRecognizer(target: self,
                                             action: #selector(ListaProdutosController.detailProduto(_:)))
+    }
+    
+    private func editSelector() -> UITapGestureRecognizer {
+        return UITapGestureRecognizer(target: self,
+                                      action: #selector(ListaProdutosController.editSelector(_:)))
     }
 }

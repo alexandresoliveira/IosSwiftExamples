@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: ProdutoViewController {
 
     @IBOutlet weak var produto: UITextField!
     @IBOutlet weak var quantidade: UITextField!
@@ -57,18 +57,7 @@ class ViewController: UIViewController {
         }
     }
     
-    private func isValidDecimalNumber(number: String) -> Bool {
-        do {
-            let regex = try NSRegularExpression(pattern: "\\d+(\\.\\d{1,2})$",
-                                                options: .AllowCommentsAndWhitespace)
-            let matches = regex.matchesInString(number,
-                                                options: .Anchored,
-                                                range: NSRange(location: 0, length: number.characters.count))
-            return matches.count > 0;
-        } catch {
-            return false
-        }
-    }
+    
     
     private func voltar() {
         if let navigation = navigationController {
