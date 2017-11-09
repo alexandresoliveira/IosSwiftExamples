@@ -28,3 +28,4 @@
 */fastlane/screenshots
 */fastlane/test_output
 */.git
+*/.DS_Store
