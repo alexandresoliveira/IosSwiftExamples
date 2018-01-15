@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     private func addCardViews() {
         let margins = scroll.layoutMarginsGuide
         var lastCardView: CardView? = nil
-        for _ in 0...5 {
+        for _ in 0...8 {
             let cardView: CardView = CardView()
             cardView.backgroundColor = UIColor.white
             scroll.addSubview(cardView)
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
             }
             lastCardView = cardView
         }
-        let newHeightScroll: CGFloat = 150.0 * 7
+        let newHeightScroll: CGFloat = 150.0 * 10
         scroll.contentSize = CGSize(width: scroll.bounds.width, height: newHeightScroll)
     }
     
